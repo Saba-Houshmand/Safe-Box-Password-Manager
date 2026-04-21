@@ -1,0 +1,13 @@
+# Safe Box Password Manager
+#### Video Demo: <https://youtu.be/rZp_p7yc_Ec>
+#### Description:
+Save your safe boxes passwords in high security format!  
+This is how my program works:
+| | | | | | | |
+|-|-|-|-|-|-|-|
+|main function:| The program runs from here.| If you enter “s” the program runs the save function or if enter “v” it runs the view function otherwise it asks you to enter again.| | | | |
+|save function:| The program asks you to enter your email and if the email_format function returns True the first part of your email (before “@”) will be your file name. Then it asks your full name and your date of birth. If the birth_date_format function returns True it asks your father’s name.| The program makes a csv file and writes and saves your information in it.| The program asks your safe boxes passwords. If password_format returns True your safe boxes numbers with their passwords while passwords are returned to hash passwords using hashlib library for high security saves in your file using csv library.| The terminal will be cleared using the os library.| The program exits using the sys library.| |
+|view function:| The program asks your email to find your csv file using the os library and if it doesn’t it asks “Did you save your safe boxes passwords before? (yes/no)” and if you answer “no” it runs save function to save a csv file for you otherwise it asks to enter your email again.| The program reads the information part of your file using csv library and asks you to enter your information to check them together and if the entered information will be wrong it asks to enter them again.| The program takes a human test as sum of two random numbers between 0 and 9 using the random library. If you answer correctly the terminal will be cleared using the os library otherwise it asks you another test to answer.| The program reads the hash passwords from your file and adds them to a list.| The program asks you to enter your needed safe box number. Then it returns the related safe box hash password from the list to the real password using the hashlib library and shows it to you.| The program exits using the sys library.|
+|email_format function:| The email will be checked using the validator_collection library for validation.| | | | | |
+|birth_date_format function:| The birth date will be checked using the datetime library for validation.| | | | | |
+|password_format function:| The password will be checked using re library for being four digits.| | | | | |
