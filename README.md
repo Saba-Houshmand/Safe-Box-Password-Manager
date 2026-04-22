@@ -16,7 +16,7 @@ This project was developed as the **Final Project for CS50’s Introduction to P
 * **Local Persistence:** Saves data efficiently in structured CSV files.
 
 ## 🛠️ Technical Stack
-* **Language:** Python 3.x
+* **Language:** Python 3
 * **Security:** `hashlib` (SHA-256)
 * **Validation:** `re` (Regex) & `validator-collection`
 * **Data Handling:** `csv` & `os`
