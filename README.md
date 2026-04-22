@@ -2,12 +2,10 @@
 
 A secure Command Line Interface (CLI) application for managing and retrieving safebox passwords using SHA-256 hashing and multi-factor identity verification.
 
----
 
 ## 🎥 Video Demo
 **Watch the project in action here:** [https://youtu.be/rZp_p7yc_Ec](https://youtu.be/rZp_p7yc_Ec)
 
----
 
 ## ✨ Features
 
