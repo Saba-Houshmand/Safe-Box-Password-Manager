@@ -1,21 +1,25 @@
 # 🔐 Safe Box Password Manager
+#### 🎥 Video Demo: [Watch on YouTube](https://youtu.be/rZp_p7yc_Ec)
 
-A secure Command Line Interface (CLI) application for managing and retrieving safebox passwords using SHA-256 hashing and multi-factor identity verification.
+---
 
+## 📖 Overview
+**Safe Box Password Manager** is a robust security tool built with **Python**. It allows users to store and retrieve sensitive passwords for their physical safe boxes. Unlike standard managers, it prioritizes privacy by using **SHA-256 Hashing**, ensuring that your actual passwords are never stored in plain text.
 
-## 🎥 Video Demo
-**Watch the project in action here:** [https://youtu.be/rZp_p7yc_Ec](https://youtu.be/rZp_p7yc_Ec)
+This project was developed as the **Final Project for CS50’s Introduction to Programming with Python (CS50P)** from Harvard University.
 
+## ✨ Key Features
+* **Hash-Based Security:** Utilizes the SHA-256 cryptographic algorithm for password protection.
+* **Multi-Factor Verification:** Access is guarded by personal details including Email, Full Name, Birth Date, and Father's Name.
+* **Human Test (Anti-Bot):** Features a randomized mathematical challenge to prevent automated access.
+* **Input Validation:** Strict format checking for Emails, ISO Dates, and 4-digit passwords.
+* **Local Persistence:** Saves data efficiently in structured CSV files.
 
-## ✨ Features
-
-* **Cryptographic Security:** Passwords are never stored as plain text; they are protected using **SHA-256 hashing**.
-* **Identity Verification:** Users must verify their Email, Full Name, Birth Date, and Father's Name to access records.
-* **Anti-Bot Protection:** Includes a "Human Test" (Math CAPTCHA) to ensure physical user interaction.
-* **Format Validation:** * Strict email validation via `validator-collection`.
-    * Date validation (ISO 8601 format).
-    * Regex-based password enforcement (4-digit PINs).
-* **Automated Data Management:** Creates and manages user-specific CSV files for persistent storage.
+## 🛠️ Technical Stack
+* **Language:** Python 3.x
+* **Security:** `hashlib` (SHA-256)
+* **Validation:** `re` (Regex) & `validator-collection`
+* **Data Handling:** `csv` & `os`
 
 ---
 *Developed by Saba Houshmand*
