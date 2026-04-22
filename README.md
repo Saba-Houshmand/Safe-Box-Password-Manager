@@ -4,12 +4,12 @@ A secure Command Line Interface (CLI) application for managing and retrieving sa
 
 ---
 
-## 📺 Video Demo
+## 🎥 Video Demo
 **Watch the project in action here:** [https://youtu.be/rZp_p7yc_Ec](https://youtu.be/rZp_p7yc_Ec)
 
 ---
 
-## 🚀 Features
+## ✨ Features
 
 * **Cryptographic Security:** Passwords are never stored as plain text; they are protected using **SHA-256 hashing**.
 * **Identity Verification:** Users must verify their Email, Full Name, Birth Date, and Father's Name to access records.
@@ -20,4 +20,4 @@ A secure Command Line Interface (CLI) application for managing and retrieving sa
 * **Automated Data Management:** Creates and manages user-specific CSV files for persistent storage.
 
 ---
-Developed by Saba Houshmand
+*Developed by Saba Houshmand*
